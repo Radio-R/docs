@@ -1,54 +1,61 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Radio R – Dokumentace",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
+    "primary": "#007CF8",
+    "light": "#007CF8",
     "dark": "#0D001D",
     "background": {
-      "dark": "#090014"
+      "dark": "#020713"
     },
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#007CF8",
+      "to": "#F800DF"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Hlavní web",
+      "url": "https://radio-r.cz"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "CUE",
+    "url": "https://cue.radio-r.cz"
+  },
+  "primaryTab": {
+    "name": "Základní informace"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Cue dokumentace",
+      "url": "cue"
+    },
+    {
+      "name": "API dokumentace",
       "url": "api-reference"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Discord",
+      "icon": "discord",
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Lidé Radia R",
+      "icon": "facebook",
+      "url": "https://radio-r.cz"
+    },
+    {
+      "name": "Hlavní web",
+      "icon": "earth-europe",
+      "url": "https://radio-r.cz"
     }
   ],
   "navigation": [
@@ -57,12 +64,26 @@
       "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "O Radiu R",
+      "pages": ["o-rku/kdo-jsme", "o-rku/historie", "o-rku/stanovy"]
     },
     {
-      "group": "API Documentation",
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
+    },
+    {
+      "group": "API dokumentace",
       "pages": ["api-reference/authentication"]
+    },
+    {
+      "group": "Cue dokumentace",
+      "pages": ["cue/uvod"]
     },
     {
       "group": "Endpoint Examples",
