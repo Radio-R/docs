@@ -45,12 +45,12 @@
     {
       "name": "Discord",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/zh7ZqkATvj"
     },
     {
       "name": "Lidé Radia R",
       "icon": "facebook",
-      "url": "https://radio-r.cz"
+      "url": "https://www.facebook.com/groups/208867217557"
     },
     {
       "name": "Hlavní web",
@@ -60,22 +60,8 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
       "group": "O Radiu R",
-      "pages": ["o-rku/kdo-jsme", "o-rku/historie", "o-rku/stanovy"]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation"
-      ]
+      "pages": ["o-rku/kdo-jsme", "o-rku/stanovy"]
     },
     {
       "group": "API dokumentace",
