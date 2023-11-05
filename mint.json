@@ -33,7 +33,7 @@
   },
   "tabs": [
     {
-      "name": "Cue dokumentace",
+      "name": "Cue (interní systém)",
       "url": "cue"
     },
     {
@@ -84,6 +84,10 @@
     {
       "group": "Cue dokumentace",
       "pages": ["cue/uvod"]
+    },
+    {
+      "group": "Podcasty",
+      "pages": ["cue/podcasty/rss"]
     },
     {
       "group": "Endpoint Examples",
